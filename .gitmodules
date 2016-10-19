@@ -1,0 +1,9 @@
+[submodule "/Users/AnthonyKim/.vim/bundle/nerdtree"]
+	path = /Users/AnthonyKim/.vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "/Users/AnthonyKim/.vim/bundle/vim-airline"]
+	path = /Users/AnthonyKim/.vim/bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline
+[submodule "/Users/AnthonyKim/.vim/bundle/vim-airline-themes"]
+	path = /Users/AnthonyKim/.vim/bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes
