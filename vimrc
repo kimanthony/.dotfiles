@@ -13,15 +13,17 @@ set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
 set number
-set colorcolumn=90
+set tw=80
+set colorcolumn=80
 imap jk <Esc>
 nnoremap j gj
 nnoremap k gk
 set hidden
-set history=100
+set history=300
 set hlsearch
 set mouse=a
-
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 filetype plugin indent on
 " show existing tab with 4 spaces width
 set tabstop=4
